@@ -2,6 +2,7 @@
 Updated Nov.22 2020
 
 ## Seurat1-1.R
+[script](https://github.com/hliu5259/singlecell/blob/master/Seurat%20%20pipeline/seurat1-1.R)
 ### Command-line:
 	Rscript Seurat1-1.R -s <sample_list>
 
