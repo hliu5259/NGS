@@ -1,4 +1,4 @@
-#Seurat Pipeline for analysis GE matrix
+# Seurat Pipeline for analysis GE matrix
 Updated Nov.22 2020
 
 
