@@ -40,7 +40,7 @@ A directory containing the original Seurat files (_beforefilter.rds)
 ### Required Argument
 	-s Sample_feature_list contains sample_id, feature_min, feature_max, percent of Mito
 	
-## Seurat2_batch_cc.R
+## [Seurat2_batch_cc.R](https://github.com/hliu5259/singlecell/blob/master/Seurat%20%20pipeline/seurat1-2.R)
 ### Command-line:
 	Rscript Seurat2_batch_cc.R -s <sample_list> -p <pattern for VAF matrix>
 
