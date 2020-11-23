@@ -1,0 +1,12 @@
+name: scSNVis_shiny
+title: scSNVis_shiny
+username:
+account: starrysky
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 3253918
+bundleId: 3873591
+url: https://starrysky.shinyapps.io/scSNVis_shiny/
+when: 1605655362.19623
+asMultiple: FALSE
+asStatic: FALSE
