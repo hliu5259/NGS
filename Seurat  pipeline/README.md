@@ -35,7 +35,28 @@ A list containing the sample_id, feature_min, feature_max, percent of Mtio
 A directory containing the original Seurat files (_beforefilter.rds)
 
 ### sample input matrix file name
-	<sample_id>_wide_counts.tsv 
+	<sample_id>_beforefilter.rds
 
 ### Required Argument
 	-s Sample_feature_list contains sample_id, feature_min, feature_max, percent of Mito
+	
+## Seurat2_batch_cc.R
+### Command-line:
+	Rscript Seurat2_batch_cc.R -s <sample_list> -p <pattern for VAF matrix>
+
+### Description
+
+This script is to intergate the Seurat filtered datset to reduce batch effect, then reduce cycle effect for each sample and do cluster annotation.
+
+
+### Input 
+A list containing the sample_id, feature_min, feature_max, percent of Mtio as ordered
+A directory containing the filtered Seurat files (_seurat_clusterd_singleR.rds). 
+
+### sample input matrix file name
+	<sample_id>_seurat_clustered_singleR.rds
+
+### Required Argument
+	-s Sample_list contains sample_id
+	-p pattern for VAF matrix without sample_id (optional)
+
