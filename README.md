@@ -6,3 +6,6 @@ Using for scReQTL: an approach to correlate SNVs to gene expression from individ
 
 # [scSNVis](https://github.com/hliu5259/singlecell/tree/master/scSNVis)
 virtulization for VAF in gene expression distribution graph
+
+# [Psuedotime](https://github.com/hliu5259/singlecell/tree/master/psuetotime)
+PAGA psuedotime analysis for metabolism dataset
